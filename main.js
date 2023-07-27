@@ -1,6 +1,6 @@
 import './style.css';
 
-fetch('http://localhost:3000/todos',{
+fetch('https://firstapi-seven.vercel.app/todos',{
   method:'get'
 })
 .then(resp=>resp.json())
